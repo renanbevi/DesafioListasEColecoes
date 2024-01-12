@@ -18,7 +18,7 @@ public class Principal {
         headset.setPreco(199.99);
         headset.setQuantidade(1);
 
-        ProdutoPerecivel produtoPerecivel = new ProdutoPerecivel ("Carne",39,1,1990);
+        ProdutoPerecivel produtoPerecivel = new ProdutoPerecivel ("Carne",39,1,"12/01/2025");
 
 
         ArrayList<Produto>  listaDeProdutos = new ArrayList<>();

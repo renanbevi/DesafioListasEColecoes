@@ -14,6 +14,9 @@ public class Produto {
     }
 
     public Produto(String nome, double preco, int quantidade, int dataValidade) {
+        this.nome = nome;
+        this.preco = preco;
+        this.quantidade = quantidade;
 
     }
 
