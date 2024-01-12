@@ -9,6 +9,11 @@ public class ProdutoPerecivel extends Produto {
 
     }
 
+    @Override
+    public String toString() {
+        return "Produto: " + this.getNome() + " no valor de: " + this.getPreco() + " com a quantidade de: " + getQuantidade() + " data de validade: " + getDataValidade() ;
+    }
+
 
 
     public String getDataValidade() {

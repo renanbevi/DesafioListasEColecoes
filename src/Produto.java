@@ -13,12 +13,6 @@ public class Produto {
 
     }
 
-    public Produto(String nome, double preco, int quantidade, int dataValidade) {
-        this.nome = nome;
-        this.preco = preco;
-        this.quantidade = quantidade;
-
-    }
 
     public String getNome() {
         return nome;
@@ -44,8 +38,5 @@ public class Produto {
         this.quantidade = quantidade;
     }
 
-    @Override
-    public String toString() {
-        return "Produto: " + this.getNome() + " no valor de: " + this.getPreco() + " com a quantidade de: " + getQuantidade() ;
-    }
+
 }

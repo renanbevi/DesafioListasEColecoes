@@ -18,22 +18,23 @@ public class Principal {
         headset.setPreco(199.99);
         headset.setQuantidade(1);
 
-        ProdutoPerecivel produtoPerecivel = new ProdutoPerecivel ("Carne",39,1,"12/01/2025");
+        ProdutoPerecivel produtoPereciveis = new ProdutoPerecivel ("Carne",39,1,"12/01/2025");
 
 
         ArrayList<Produto>  listaDeProdutos = new ArrayList<>();
         listaDeProdutos.add(playstation);
         listaDeProdutos.add(jogo);
         listaDeProdutos.add(headset);
-        listaDeProdutos.add(produtoPerecivel);
+
+
 
 
 
 
 
         System.out.println("Tamanho da lista de produtos é de " + listaDeProdutos.size() +  " quantidades");
-        System.out.println("Produto: " + listaDeProdutos.get(0).getNome() + " está na promoção");
-        System.out.println("Produto: " + listaDeProdutos.get(3));
+        System.out.println("Produto: " + listaDeProdutos + " está na promoção");
+        System.out.println(produtoPereciveis);
 
     }
 }
